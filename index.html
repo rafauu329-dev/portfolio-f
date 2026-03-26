@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arafi Buya — Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Arafi Buya — Computer Engineering Year 2 & Full-Stack MERN Developer." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23000'/><text y='.75em' x='50%' text-anchor='middle' font-size='70' fill='white' font-family='sans-serif' font-weight='bold'>A</text></svg>" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">arafi<span>.dev</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="icon-sun">☀</span>
+        <span class="icon-moon">◐</span>
+      </button>
+      <a href="mailto:rafauu329@gmail.com" class="nav-cta">Hire Me →</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#journey">Journey</a>
+    <a href="#contact">Contact</a>
+    <a href="mailto:rafauu329@gmail.com" class="mobile-cta">✉ Hire Me</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-layout">
+      <div class="hero-content">
+        <div class="hero-badge">Computer Engineering · Year 2</div>
+        <h1 class="hero-name" id="hero-name"></h1>
+        <p class="hero-role" id="hero-role"></p>
+        <p class="hero-bio" id="hero-bio"></p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View Projects →</a>
+          <a href="#contact" class="btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-stats" id="hero-stats"></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-img-frame">
+          <img src="assets/profilee.png" alt="Arafi Buya" />
+        </div>
+        <div class="hero-img-glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-avatar-wrap">
+        <div class="about-avatar-frame">
+          <img src="assets/profile.png" alt="Arafi Buya" />
+        </div>
+        <div class="about-deco"></div>
+        <div class="about-badge-float">
+          <span class="text">
+            <strong>Year 2 Student</strong>
+            Computer Engineering
+          </span>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <p class="section-label">About Me</p>
+        <h2 class="section-title">Building real things,<br>learning by shipping.</h2>
+        <div class="divider"></div>
+        <div id="about-bio"></div>
+        <div class="edu-card">
+          <div class="edu-degree" id="edu-degree"></div>
+          <div class="edu-meta" id="edu-meta"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <p class="section-label">Tech Stack</p>
+      <h2 class="section-title">What I work with</h2>
+      <div class="divider"></div>
+      <p class="section-sub">MERN stack is my core. Comfortable building end-to-end — from MongoDB schemas to React UIs.</p>
+    </div>
+    <div class="skills-layout">
+      <div class="skill-bars reveal" id="skill-bars"></div>
+      <div class="learning-box reveal">
+        <p class="learning-title">Currently Learning ↗</p>
+        <div class="learning-pills" id="learning-pills"></div>
+        <div class="tech-stack-visual">
+          <h4>Full Stack Toolkit</h4>
+          <div class="tech-icons" id="tech-icons"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <p class="section-label">Work</p>
+      <h2 class="section-title">Projects I've shipped</h2>
+      <div class="divider"></div>
+      <p class="section-sub">All built from scratch. All deployed. Real code, real products.</p>
+    </div>
+    <div class="projects-grid" id="projects-grid"></div>
+  </section>
+
+  <!-- JOURNEY -->
+  <section id="journey">
+    <div class="section-header reveal">
+      <p class="section-label">Timeline</p>
+      <h2 class="section-title">The journey so far</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">2023 — Start</p>
+        <div class="timeline-content">
+          <h4>Began Computer Engineering</h4>
+          <p>Enrolled in CompEng, picked up the fundamentals — data structures, algorithms, and first taste of web with HTML & CSS.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">2024 — Grind</p>
+        <div class="timeline-content">
+          <h4>100+ Hours MERN Bootcamp</h4>
+          <p>Completed a full-stack bootcamp covering React, Node.js, Express, MongoDB. Built 4 real projects shipped to production.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">2025–2026 — Now</p>
+        <div class="timeline-content">
+          <h4>Deploying & Iterating</h4>
+          <p>First production apps live. Deepening TypeScript, improving system design, and strengthening backend architecture.</p>
+        </div>
+      </div>
+      <div class="timeline-item timeline-next reveal">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">Next →</p>
+        <div class="timeline-content">
+          <h4>Mobile App & Cyber Security</h4>
+          <p>Expanding into React Native for mobile and diving into application security and ethical hacking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner reveal">
+      <p class="section-label">Contact</p>
+      <h2 class="section-title">Let's connect</h2>
+      <div class="divider" style="margin:0.8rem auto 1rem"></div>
+      <p class="section-sub">Open to internships, collaborations, and interesting conversations about tech.</p>
+      <a href="mailto:rafauu329@gmail.com" class="contact-email">
+        ✉ rafauu329@gmail.com
+      </a>
+      <div class="social-links">
+        <a href="https://github.com/rafauu329-dev" target="_blank" rel="noopener" class="social-btn">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="footer-copy">© 2026 <span id="footer-name"></span> — Built with HTML, CSS & JS</p>
+    <a href="#hero" class="footer-back">↑ Back to top</a>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
