@@ -31,9 +31,9 @@ const portfolioData = {
       description: "Full-stack social media app with JWT auth, tweet creation, user interactions, and dynamic feed rendering. Focused on REST API design and scalable backend architecture.",
       image: "assets/twitter-clone.png",
       tags: ["MongoDB", "Express", "React", "Node.js", "JWT", "REST API"],
-      link: "",
+      link: "https://twiter-clone-b68c.onrender.com",
       github: "#",
-      deployed: false,
+      deployed: true,
       featured: true,
     },
     {
